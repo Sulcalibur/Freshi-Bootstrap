@@ -1,0 +1,9 @@
+build/
+bower_components/
+dist/
+npm-debug.log
+LICENCE
+dist
+*.esproj
+*.sublime-project
+*.sublime-workspace

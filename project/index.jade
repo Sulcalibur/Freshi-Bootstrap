@@ -1,0 +1,14 @@
+extends assets/templates/master
+append config
+  - var PageTitle = "This is working Woohoo!"
+  - var jQuery = true
+  - var Modernizr = true
+  - var PageSlug = "AwesomePage"
+block body
+  body
+    .container
+      .content
+        h1 This is my Index Page WOO HOO!
+        p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. At nesciunt hic blanditiis laboriosam doloremque et ex esse soluta consequatur labore, nostrum accusamus ipsum sit odit rem mollitia, quod dolorem sequi, facilis alias ipsa vel praesentium. Ipsam, quis, perferendis. Neque tenetur obcaecati libero assumenda debitis excepturi saepe sequi aspernatur ipsa, veniam dolore delectus ipsam modi ea similique molestiae placeat ratione minus suscipit, quam deserunt adipisci. Aspernatur, rem poro.
+        include assets/templates/includes/footer
+      include assets/templates/includes/sidebar
