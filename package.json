@@ -15,7 +15,7 @@
     "gulp-watch": "^3.0.0"
   },
   "devDependencies": {
-    "browser-sync": "^1.8.0",
+    "browser-sync": "^2.27.4",
     "browserify": "^7.0.2",
     "evil-icons": "^1.2.0",
     "gulp-minify-css": "^0.3.11",
